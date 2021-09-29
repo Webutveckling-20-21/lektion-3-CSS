@@ -42,7 +42,7 @@ li {
 
 .blue {
 
-    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    background-color: rgb(183, 142, 236);
     max-width: 400px; 
     margin: auto;
     border: 1px solid black;
@@ -60,7 +60,7 @@ li {
 
 .green {
 
-    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    background-color: rgb(183, 142, 236);
     max-width: 400px; 
     margin: auto;
     border: 1px solid black;
