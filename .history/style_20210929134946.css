@@ -1,0 +1,107 @@
+.box {
+    background-color: rgb(255, 0, 98);
+    /* height:200px; */
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blue {
+       
+    background-color: rgb(108, 20, 223);
+    width: 300px;
+    flex:1;
+
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+.green {
+       
+    background-color: rgb(108, 20, 223);
+    width: 300px;
+    flex:2;
+
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+.red{
+       
+    background-color: rgb(108, 20, 223);
+    width: 300px;
+    flex:1;
+
+    color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+
+img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+h2 {
+    justify-content: center;
+}
+.main-center h3 {
+    justify-content: center;
+}
+
+.main-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    align-items: center;
+    justify-content:center;
+    background-color:lightcoral;
+}
+.article1{
+    margin:10px;;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.article2{
+    margin:10px;
+    border: 1px solid black;
+}
+.article3{
+    margin:10px;
+    border: 1px solid black;
+}
+h3{
+    margin:auto;
+}
+
+p {
+    text-align: center;
+margin:10px}
+h3 {
+    padding:5px;
+    text-align: center;
+}}
+
