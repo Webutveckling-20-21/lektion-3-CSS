@@ -155,8 +155,5 @@ h3 {
 }
 
 .footer-place {
-    padding: 20px;
-    margin:15px;
-    border: 1px solid black;
-    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    border-top: 1px solid black;
 }
