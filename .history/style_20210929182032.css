@@ -38,7 +38,6 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     /* opacity: 0.5; */
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
 
 .blue {

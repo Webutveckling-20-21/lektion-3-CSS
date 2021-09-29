@@ -38,7 +38,6 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     /* opacity: 0.5; */
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
 
 .blue {
@@ -52,7 +51,7 @@ li {
      border-radius: 8px;
     justify-content: center;
     padding: 5px;
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    box-shadow: 10px 10px 5px grey;
 
 
 }
@@ -68,7 +67,7 @@ li {
     border-radius: 8px;
     justify-content: center;
     padding: 5px;
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    box-shadow: 10px 10px 5px grey;
 
 
 }
@@ -85,7 +84,7 @@ li {
     border-radius: 8px;
     justify-content: center;
     padding: 10px;
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    box-shadow: 10px 10px 5px grey;
 
 }
 
@@ -112,7 +111,6 @@ h2 {
     align-items: center;
     justify-content: center;
     background-color: rgb(183, 142, 236);
-    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
 
 .article1 {
