@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 body{
     font-family: 'Grechen Fuemen', cursive;
-    font-weight: bolder;
 }
 .navbar{
     width: 100%;
@@ -24,13 +23,11 @@ ul{
     }
 .nav-list {
     margin:5px;
-    
    
     
   }
   a{
     text-decoration: none; 
-    font-size: 2rem;
 
   }
   a:hover{

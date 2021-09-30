@@ -24,13 +24,11 @@ ul{
     }
 .nav-list {
     margin:5px;
-    
    
     
   }
   a{
     text-decoration: none; 
-    font-size: 2rem;
 
   }
   a:hover{
