@@ -83,12 +83,12 @@ a:hover {
     color: rgb(100, 59, 212);
 }
 
-/*  
+/*
 .img::before {
-    content:"opacity .2" ; 
+    opacity: .2;   
  } 
  .img::after {
-    content:" opacity 1"; 
+     opacity:1; 
  }*/
 
 .thumbnail:hover {
@@ -133,20 +133,21 @@ a:hover {
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
     max-width: 400px;
     max-height: auto;
+
     background-color: rgba(255, 255, 255, 0.2);
     margin: 20px;
     flex: 1;
     order: 2;
     border: 4px solid rgb(241, 238, 238);
     color: white;
+
     border-radius: 8px;
+
     padding: 10px;
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
-    }
-    iframe{
-        margin: 15px;
-    }
+
+}
 
 .green {
 
