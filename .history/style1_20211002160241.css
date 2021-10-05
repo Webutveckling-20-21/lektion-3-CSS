@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+body {
+    font-family: 'Grechen Fuemen', cursive;
+    font-weight: bolder;
+}
+.header{
+    display:flex;
+    width: 100%;
+    height:50px;
+    border:1px solid black;
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    border-radius:8px;
+    justify-content: center;
+}
+.header h1 {
+    margin:10px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eed9f8;
+    margin: 5px;
+    border-radius:8px;
+}
+
+ul {
+
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-list {
+    margin: 5px;
+}
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196F3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover
+{
+    color: #e7b3e0;
+    background: #2196F3;
+    transition-delay: 1s;
+    box-shadow: 0 0 10px #ce6ea6, 0 0 40px #c73ec0, 0 0 80px #ac0c89;
+}
+a span
+{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1)
+{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#db10af);
+}
+a:hover span:nth-child(1)
+{
+    left: 100%;
+    transition: 1s;
+}
+a span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#e017ae);
+}
+a:hover span:nth-child(3)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+a span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#db0aae);
+}
+a:hover span:nth-child(2)
+{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+/* <img src="[your hosted image URL]" class="thumbnail" height="100" width="100" />  */
+
+
+
+.box {
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    /* height:200px; */
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* opacity: 0.5; */
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+}
+
+.blue {
+
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+
+
+}
+
+.green {
+
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+
+
+}
+
+.red {
+
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    max-width: 400px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+
+    border-radius: 8px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+
+}
+
+img {
+    width: 25%;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: auto;
+}
+
+h2 {
+    justify-content: center;
+}
+
+.main-center h3 {
+    justify-content: center;
+}
+
+.main-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(183, 142, 236);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+}
+
+.article1 {
+    margin: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    
+}
+.article1 img {
+    border-radius: 8px;
+    margin-left: 170px;
+}
+
+.article2 {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(172, 125, 233);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+
+}
+
+.article3 {
+    margin: 10px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+}
+
+h3 {
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-place {
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
+}
