@@ -83,26 +83,25 @@ a:hover {
     color: rgb(100, 59, 212);
 }
 
-/*
-.img::before {
-    opacity: .2;   
- } 
- .img::after {
-     opacity:1; 
- }*/
+
+.img> .box::before {
+    opacity: .7;
+   
+ }
+ 
+ .thumbnail::after {
+     opacity:1;
+ 
+ }
 
 .thumbnail:hover {
     position: relative;
     top: -10px;
-    /* left: -10px; */
-    right:30px;
+    left: -10px;
     width: 175px;
     height: auto;
     display: block;
     z-index: 999;
-}
-.marg-text {
-    text-align: justify;
 }
 
 /* <img src="[your hosted image URL]" class="thumbnail" height="100" width="100" />  */
@@ -188,8 +187,6 @@ a:hover {
 
 
 img {
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100px;
     border-radius: 8px;
     max-width: 300px;
@@ -197,7 +194,6 @@ img {
     border: 4px solid white;
 
 }
-
 
 h2 {
     justify-content: center;

@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-
 body {
     font-family: 'Grechen Fuemen', cursive;
     font-weight: bolder;
     border: 4px solid black;
     border-radius: 8px;
-    max-width: 1200px;
+    max-width:1200px;
 }
 
 .header {
@@ -19,21 +18,20 @@ body {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     justify-content: center;
-    margin: 5px;
+    margin:5px;
 }
 
 .header h1 {
     margin: 10px;
     flex-wrap: wrap;
 }
-
-.logo-img {
+.logo-img{
     border: 0px;
 }
 
 
 .navbar {
-
+  
     width: auto;
     height: auto;
     display: flex;
@@ -44,8 +42,7 @@ body {
     border-radius: 8px;
     flex-wrap: wrap;
 }
-
-audio {
+audio{
     width: 200px;
     height: 50px;
 }
@@ -75,34 +72,32 @@ a {
     text-decoration: none;
     font-size: 2rem;
     color: rgb(82, 6, 82);
-
+    
 
 }
 
 a:hover {
     color: rgb(100, 59, 212);
 }
-
 /*
-.img::before {
-    opacity: .2;   
- } 
- .img::after {
-     opacity:1; 
+.thumbnail::before {
+    opacity: .7;
+   
+ }
+ 
+ .thumbnail::after {
+     opacity:1;
+ 
  }*/
 
 .thumbnail:hover {
     position: relative;
     top: -10px;
-    /* left: -10px; */
-    right:30px;
-    width: 175px;
+    left: -10px;    
+    width: 150px;
     height: auto;
     display: block;
     z-index: 999;
-}
-.marg-text {
-    text-align: justify;
 }
 
 /* <img src="[your hosted image URL]" class="thumbnail" height="100" width="100" />  */
@@ -115,12 +110,12 @@ a:hover {
     display: flex;
     /* max-width: 100%; */
     align-items: stretch;
-    justify-content: center;
+    justify-content:center;
     border: 4px solid rgb(86, 5, 102);
     background-color: white;
     border-radius: 8px;
     flex-wrap: wrap;
-    border: solid 4px black;
+    border:solid 4px black;     
     margin: 5px;
     /* opacity: 0.5; */
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
@@ -131,17 +126,17 @@ a:hover {
     /* background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);*/
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
     max-width: 400px;
-    max-height: auto;
+    max-height:auto;
 
     background-color: rgba(255, 255, 255, 0.2);
     margin: 20px;
-    flex: 1;
-    order: 2;
+    flex:1;
+    order:2;
     border: 4px solid rgb(241, 238, 238);
-    color: white;
-
+    color:white;
+    
     border-radius: 8px;
-
+    
     padding: 10px;
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
@@ -152,34 +147,34 @@ a:hover {
 
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
     max-width: 300px;
-    flex: 1;
-    order: 3;
+    flex:1;
+    order:3;
     padding: 10px;
     margin: 20px;
     border: 4px solid white;
-    color: White;
+    color:White;
     text-align: center;
     border-radius: 8px;
-
+    justify-content: center;
     padding: 5px;
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
 
 }
 
-.red {
-
+.red {     
+   
     max-width: 300px;
-    margin: 20px;
-    flex: 1;
-    order: 1;
+    margin:20px;
+    flex:1;
+    order:1;
     padding: 10px;
-    color: white;
+    color:white;
     text-align: center;
     border: 4px solid white;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-
+    justify-content: center;
     padding: 10px;
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
@@ -188,16 +183,13 @@ a:hover {
 
 
 img {
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100px;
     border-radius: 8px;
     max-width: 300px;
     /*margin: auto;*/
     border: 4px solid white;
-
+   
 }
-
 
 h2 {
     justify-content: center;
@@ -214,52 +206,50 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     /* border: 1px solid black; */
-    background: whitesmoke;
+    background:whitesmoke;
     border-radius: 8px;
     align-items: stretch;
-    justify-content: center;
-
+    justify-content:center;
+   
     /* background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%); */
 
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     margin-bottom: 5px;
 }
 
-.form-control {
-    margin: 10px;
-    border-radius: 8px;
+.form-control{
+    margin:10px;
+    border-radius:8px;
+}
+.button{
+    margin:8px;
+    border-radius:8px;
 }
 
-.button {
-    margin: 8px;
-    border-radius: 8px;
-}
-
-.article1 {
-
+.article1 {   
+      
     max-height: 95vh;
-    margin: 20px;
+    margin:20px;
     border: 4px solid white;
     border-radius: 8px;
-    flex: 1;
-    order: 2;
-    color: white;
+    flex:1;
+    order:2; 
+    color:white;
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
-
-    /* background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);*/
+    
+   /* background: linear-gradient(to bottom, #c69de7 10%, #e47ee7 90%);*/
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
 }
 
 .article1 img {
-
+  
     border-radius: 8px;
     margin-left: 35%;
     margin-right: -60%;
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
 }
-
 .article2 img {
     border-radius: 8px;
     margin-left: 35%;
@@ -267,38 +257,37 @@ h2 {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
 }
-
 .article3 img {
     border-radius: 8px;
     margin-left: 35%;
-
+    
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 
 }
 
 .article2 {
     max-height: 95vh;
-    margin: 20px;
+    margin:20px;
     border: 4px solid white;
-    flex: 1;
-    order: 1;
-    color: white;
+    flex:1;
+    order:1;   
+    color:white;
     border-radius: 8px;
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
-
+   
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
-
+   
 
 
 }
 
 .article3 {
     max-height: 95vh;
-    margin: 20px;
-    border: 4px solid white;
-    flex: 1;
-    order: 3;
-    color: white;
+    margin:20px;
+    border: 4px solid white;  
+     flex:1;
+    order:3;   
+    color:white;
     border-radius: 8px;
     background: linear-gradient(to bottom, #d121a5 10%, #0d2b80 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
@@ -314,11 +303,11 @@ p {
     margin: 10px;
     padding: 10px;
     font-family: 'Merriweather', serif;
-    color: white;
+    color:white;
     /* font-family: 'Roboto', sans-serif;   */
+    
 
-
-
+    
 
 }
 
