@@ -264,7 +264,8 @@ h2 {
 
 .article2 {
     max-height: 95vh;
-    margin:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 4px solid white;
     flex:1;
     order:1;   
@@ -280,7 +281,8 @@ h2 {
 
 .article3 {
     max-height: 95vh;
-    margin:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 4px solid white;  
      flex:1;
     order:3;   

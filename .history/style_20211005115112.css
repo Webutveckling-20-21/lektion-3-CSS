@@ -107,13 +107,14 @@ a:hover {
     /* height:200px; */
     display: flex;
     /* max-width: 100%; */
-    align-items: stretch;
-    justify-content:center;
+    align-items: center;
+    justify-content: stretch;
     border: 4px solid rgb(86, 5, 102);
     background-color: white;
     border-radius: 8px;
     flex-wrap: wrap;
-    border:solid 4px black;     
+    border:solid 4px black;
+   
     margin: 5px;
     /* opacity: 0.5; */
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
@@ -226,7 +227,8 @@ h2 {
 
 .article1 {   
     max-height: 95vh;
-    margin:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 4px solid white;
     border-radius: 8px;
     flex:1;
@@ -264,7 +266,8 @@ h2 {
 
 .article2 {
     max-height: 95vh;
-    margin:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 4px solid white;
     flex:1;
     order:1;   
@@ -280,7 +283,8 @@ h2 {
 
 .article3 {
     max-height: 95vh;
-    margin:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 4px solid white;  
      flex:1;
     order:3;   
