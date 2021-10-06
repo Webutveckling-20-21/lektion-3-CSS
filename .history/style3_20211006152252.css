@@ -100,7 +100,7 @@ a:hover {
     height: auto;
     display: block;
     z-index: 999;
-    transition: all .5s ease-in-out;
+    transition: 0.5s;
 }
 
 .marg-text {
