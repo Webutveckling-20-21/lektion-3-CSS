@@ -97,7 +97,7 @@ body {
 
 textarea{
     background-color: #8257e7;
-    
+    box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
 
 .navbar {
@@ -324,6 +324,7 @@ h2 {
 }
 
 .article1 {
+
     max-height: 95vh;
     margin: 20px;
     border: 4px solid white;
