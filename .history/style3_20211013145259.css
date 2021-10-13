@@ -284,8 +284,6 @@ main {
     background-size: 200%;
     border-radius: 5px;
     margin-top:10px;
-    color: rgb(243, 237, 237);
-    border:1px solid blue;
 }
 .container .forening:hover
 {
@@ -395,7 +393,6 @@ h3 {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     font-size: 3rem;
-    color:white;
 }
 /* Portrait and Landscape */
 @media only screen 

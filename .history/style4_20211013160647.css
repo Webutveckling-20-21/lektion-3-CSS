@@ -224,7 +224,8 @@ a:hover {
     align-items: stretch;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    ;
     border: 4px solid rgb(86, 5, 102);
     background-color: white;
     border-radius: 8px;
@@ -240,7 +241,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 90vh;
-    margin: 20px;    
+    margin: 20px;
     flex: 1;
     order: 1;
     padding: 10px;
@@ -255,14 +256,9 @@ a:hover {
 }
 
 .red .text-info img {
-    width: 100%;
+    width: 90vw;
     height:auto;
-    margin-left: 25%;
-    
-      
-}
-.red .text-info h2{
-    text-align: center;
+   
 }
 
 

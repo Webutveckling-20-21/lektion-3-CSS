@@ -264,35 +264,62 @@ main {
     border-radius: 8px;
 }
 
-.container.forening
+.container
+{
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container a
 {
     position: relative;
     display: inline-block;
     padding: 10px 30px;
-    margin: 20px;    
+    margin: 20px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
-    
-    transition: 1s;
-    
+    color: #fff;
+    transition: 0.5s;
 }
-.container .forening:nth-child(1)
+.container a:nth-child(1)
 {
-    background: linear-gradient(to right, #8468c7, #e242b5, #5518e4);
+    background: linear-gradient(to right, #a18cd1, #fbc2eb, #a18cd1);
     background-size: 200%;
-    border-radius: 5px;
-    margin-top:10px;
-    color: rgb(243, 237, 237);
-    border:1px solid blue;
 }
-.container .forening:hover
+.container a:nth-child(2)
+{
+    background: linear-gradient(to right, #43e97b, #38f9d7, #43e97b);
+    background-size: 200%;
+}
+.container a:nth-child(3)
+{
+    background: linear-gradient(to right, #fa709a, #fee140, #fa709a);
+    background-size: 200%;
+}
+.container a:nth-child(4)
+{
+    background: linear-gradient(to right, #4481eb, #04befe, #4481eb);
+    background-size: 200%;
+}
+.container a:nth-child(5)
+{
+    background: linear-gradient(to right, #FFE29F, #FFA99F, #FFE29F);
+    background-size: 200%;
+}
+.container a:nth-child(6)
+{
+    background: linear-gradient(to right, #fdfc47, #24fe41, #fdfc47);
+    background-size: 200%;
+}
+.container a:hover
 {
     background-position-x: 100%;
     transform: translateY(-15px);
 }
-.container .forening:after
+.container a:after
 {
     content: '';
     position: absolute;
@@ -302,7 +329,7 @@ main {
     height: 100%;
     background: rgba(255,255,255,.2);
 }
-.container .forening:before
+.container button:before
 {
     content: '';
     position: absolute;
@@ -310,20 +337,18 @@ main {
     left: 5%;
     width: 90%;
     height: 4px;
-    background: rgba(0,0,0,0.2);
+    background: rgba(212, 14, 146, 0.2);
     border-radius: 50%;
     transform: scale(0);
     transition: 0.5s;
     filter: blur(5px);
     z-index: -1;
 }
-.container .forening:hover:before
+.container button:hover:before
 {
     transform: scale(1);
     bottom: -15px;
 }
-
-
 
 
 .text-info {
@@ -395,7 +420,6 @@ h3 {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     font-size: 3rem;
-    color:white;
 }
 /* Portrait and Landscape */
 @media only screen 
