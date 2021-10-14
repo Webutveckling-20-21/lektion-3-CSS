@@ -324,7 +324,7 @@ main {
 }
 
 .text-info {
-    
+    border: solid 4px rgb(245, 239, 242);
     border-radius: 8px;
     margin: 5px;
 

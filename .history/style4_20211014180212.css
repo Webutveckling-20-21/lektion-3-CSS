@@ -265,7 +265,7 @@ a:hover {
 .red {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 
 
     margin: 20px;
@@ -324,7 +324,7 @@ main {
 }
 
 .text-info {
-    
+    border: solid 4px rgb(173, 10, 105);
     border-radius: 8px;
     margin: 5px;
 
