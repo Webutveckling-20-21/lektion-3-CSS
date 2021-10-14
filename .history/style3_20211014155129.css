@@ -59,7 +59,8 @@ ul {
 
     list-style-type: none;
     flex-wrap: wrap;
-     
+    margin-left: 5;
+    margin-right: 5;
     padding: 10;
     width: 90%;
     height: auto;
@@ -69,18 +70,18 @@ ul {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
 
-
 .nav-list {
-    margin-right: -60%;
-    margin-left:50%;
-      
-    }
-   
+    margin: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
 
 a {
     text-decoration: none;
     font-size: 2rem;
     color: rgb(241, 235, 241);
+
 
 }
 
@@ -284,7 +285,7 @@ main {
 .container .forening:nth-child(1)
 {
     background: linear-gradient(to right, #8468c7, #e242b5, #5518e4);
-    background-size: 10%;
+    background-size: 200%;
     border-radius: 5px;
     margin-top:10px;
     color: rgb(243, 237, 237);

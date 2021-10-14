@@ -71,9 +71,9 @@ ul {
 
 
 .nav-list {
-    margin-right: -60%;
-    margin-left:50%;
-      
+     
+    margin-left: 20px; 
+    margin-right: 40px;    
     }
    
 
@@ -284,7 +284,7 @@ main {
 .container .forening:nth-child(1)
 {
     background: linear-gradient(to right, #8468c7, #e242b5, #5518e4);
-    background-size: 10%;
+    background-size: 200%;
     border-radius: 5px;
     margin-top:10px;
     color: rgb(243, 237, 237);

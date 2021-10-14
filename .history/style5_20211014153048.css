@@ -142,9 +142,7 @@ img .slide-image{
  }
  
  .slide-figure {
-   display:flex;
-   justify-content:center;
-   height: 90%;
+   height: 100%;
    position: relative;
    margin: 10px;
    padding: 10px;
@@ -239,7 +237,7 @@ img .slide-image{
  
  @media only screen and (min-width: 768px) {
    body{
-    @media (min-width: 481px) and (max-width: 1200px) {
+    @media (min-width: 481px) and (max-width: 767px) {
        
       /* CSS */
       

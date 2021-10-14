@@ -12,7 +12,7 @@ body {
 
 .header {
     display: flex;
-    width: 98%;
+    width: 96%;
     height: 50px;
     border: 5px solid white;
     background: linear-gradient(to bottom, #6f76df 10%, #df258b 90%);
@@ -35,7 +35,7 @@ body {
 .logo-img {
     border: 0px;
     max-width: 100px;    
-        margin-right: 20px;
+        margin-right: 50px;
 
 }
 
@@ -142,9 +142,7 @@ img .slide-image{
  }
  
  .slide-figure {
-   display:flex;
-   justify-content:center;
-   height: 90%;
+   height: 100%;
    position: relative;
    margin: 10px;
    padding: 10px;
@@ -239,7 +237,7 @@ img .slide-image{
  
  @media only screen and (min-width: 768px) {
    body{
-    @media (min-width: 481px) and (max-width: 1200px) {
+    @media (min-width: 481px) and (max-width: 767px) {
        
       /* CSS */
       
