@@ -12,29 +12,24 @@ body {
 
 .header {
     display: flex;
-    width: 97%;
+    width: 98%;
     height: 50px;
     border: 5px solid white;
     background: linear-gradient(to bottom, #6f76df 10%, #df258b 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     justify-content: center;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .header h1 {
     margin: 10px;
-    color:white;
-    margin-left: 50px;
-    font-size: 2rem;
-    z-index: 2;
+    
 
 }
 
 .logo-img {
     border: 0px;
-    z-index: 1;
-    margin-right:40px;
 }
 
 .link-direction {
@@ -44,6 +39,7 @@ body {
     margin-right: 100px;
     margin-top: 5px;
     text-align: center;
+
 
 }
 
@@ -145,7 +141,7 @@ ul {
 a {
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(241, 237, 241);
+    color: rgb(82, 6, 82);
 }
 
 a:hover {

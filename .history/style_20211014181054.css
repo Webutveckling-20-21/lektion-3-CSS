@@ -19,13 +19,13 @@ body {
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     justify-content: center;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .header h1 {
     margin: 10px;
     color:white;
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 2rem;
     z-index: 2;
 
@@ -44,6 +44,7 @@ body {
     margin-right: 100px;
     margin-top: 5px;
     text-align: center;
+
 
 }
 
@@ -145,7 +146,7 @@ ul {
 a {
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(241, 237, 241);
+    color: rgb(82, 6, 82);
 }
 
 a:hover {
