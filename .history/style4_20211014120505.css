@@ -12,31 +12,24 @@ body {
 
 .header {
     display: flex;
-    width: 96%;
+    width: 98%;
     height: 50px;
     border: 5px solid white;
     background: linear-gradient(to bottom, #6f76df 10%, #df258b 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     justify-content: center;
-    align-items: center;
-    margin: 5px;}
+    margin: 5px;
+}
 
-.header h1 {    
+.header h1 {
+    margin: 10px;
+    flex-wrap: wrap;
     color:white;
-    font-size:2.0rem;    
-    text-align:center;
-    z-index: 2;   
-    margin-left: 40px; 
-
 }
 
 .logo-img {
     border: 0px;
-    height:100px;
-    z-index:1;
-    margin-right:10px;
-   
 }
 
 
@@ -231,7 +224,7 @@ a:hover {
     /* height:200px; */
     display: flex;
     /* max-width: 100%; */
-    align-items:center;
+    align-items: stretch;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;    
@@ -249,18 +242,12 @@ a:hover {
     align-items: center;
     justify-content:center;
     flex-wrap: wrap;
-}
 
-.flex-red{
-    display:flex;
-   justify-content:center;
-   
 }
-
 .red {
     display:flex;
     flex-direction: column;   
-    width: 90vh;
+    max-width: 90vh;
     margin: 20px;    
     align-items: center;
     padding: 10px;
@@ -276,14 +263,19 @@ a:hover {
 
 .red .text-info img {
     width: 90vh;
-    height:auto; 
-     
+    height:auto;
+  
+    
+    
+      
 }
-
-
 .red .text-info h2{
     text-align: center;
 }
+
+
+
+
 
 .main-content {
     display: flex;

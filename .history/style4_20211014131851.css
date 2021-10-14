@@ -12,31 +12,25 @@ body {
 
 .header {
     display: flex;
-    width: 96%;
+    width: 98%;
     height: 50px;
     border: 5px solid white;
     background: linear-gradient(to bottom, #6f76df 10%, #df258b 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
     border-radius: 8px;
     justify-content: center;
-    align-items: center;
-    margin: 5px;}
+    margin: 5px;
+}
 
-.header h1 {    
+.header h1 {
+   margin-left:10px;
+    margin-bottom:10px;
+   
     color:white;
-    font-size:2.0rem;    
-    text-align:center;
-    z-index: 2;   
-    margin-left: 40px; 
-
 }
 
 .logo-img {
     border: 0px;
-    height:100px;
-    z-index:1;
-    margin-right:10px;
-   
 }
 
 
