@@ -202,37 +202,31 @@ img .slide-image{
  }
  
  .light-buttons{
-   display:flex;
    border: 1px solid black;
    margin:10px;
-   color:rgb(243, 232, 232);
+   color:black;
    display:flex;
    justify-content:center;
-  
+   background-color: #df258b;
  }
-  a{
+ a{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #e4eaf0;
+    color: #2196F3;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 24px;
-    font-weight: content;
     overflow: hidden;
     transition: 0.2s;
-    margin-left:80px;
-    border-radius:8px;
-   
 }
 a:hover
 {
-    color: #e9dee2;
-    /* background: #790535; */
-    background: linear-gradient(to bottom, #eeecf3 10%, #c915cf 90%);
+    color: #255784;
+    background: #2196F3;
     transition-delay: 1s;
-    box-shadow: 0 0 10px #e74d9a, 0 0 40px #c32964, 0 0 80px #7e035f;
+    box-shadow: 0 0 10px #2196F3, 0 0 40px #2196F3, 0 0 80px #2196F3;
 }
 a span
 {

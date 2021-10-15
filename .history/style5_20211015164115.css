@@ -205,7 +205,7 @@ img .slide-image{
    display:flex;
    border: 1px solid black;
    margin:10px;
-   color:rgb(243, 232, 232);
+   color:black;
    display:flex;
    justify-content:center;
   
@@ -228,9 +228,8 @@ img .slide-image{
 }
 a:hover
 {
-    color: #e9dee2;
-    /* background: #790535; */
-    background: linear-gradient(to bottom, #eeecf3 10%, #c915cf 90%);
+    color: #4e051d;
+    background: #790535;
     transition-delay: 1s;
     box-shadow: 0 0 10px #e74d9a, 0 0 40px #c32964, 0 0 80px #7e035f;
 }
