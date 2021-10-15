@@ -202,21 +202,17 @@ img .slide-image{
  }
  
  .light-buttons{
-   width:95;
+   display:flex;
+   border: 1px solid black;
+   margin:10px;
+   color:rgb(243, 232, 232);
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   max-width:95vh;
   
-   
-  
-     
  }
- .center{
-   display:grid;  
-  grid-template-columns: 1fr;
-  text-align: center;
-  
-   
- }
-  a{     
-   
+  a{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -227,11 +223,10 @@ img .slide-image{
     font-size: 24px;
     font-weight: content;
     overflow: hidden;
-    transition: 0.2s;  
+    transition: 0.2s;
+    margin-left:80px;
     border-radius:8px;
-    margin:10px;
-    
-       
+   
 }
 a:hover
 {
