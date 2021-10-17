@@ -203,7 +203,9 @@ img .slide-image{
  
  .light-buttons{
    width:95;
- 
+  
+   
+  
      
  }
  .center{
@@ -223,7 +225,7 @@ img .slide-image{
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: content;
     overflow: hidden;
     transition: 0.2s;  
     border-radius:8px;
