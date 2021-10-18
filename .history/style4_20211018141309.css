@@ -42,7 +42,8 @@ body {
 
 
 
-.navbar {   
+.navbar {
+   
     display: flex;
     width: auto;
     height: auto;
@@ -91,7 +92,6 @@ a {
 a:hover {
     background: linear-gradient(to bottom, #b371d1 10%, #eb5aaa 90%);
     border-radius: 5px;
-    color:rgb(86, 5, 102);
 }
 
 .card-container {

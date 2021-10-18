@@ -42,10 +42,11 @@ body {
 
 
 
-.navbar {   
-    display: flex;
+.navbar {
+
     width: auto;
     height: auto;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #eed9f8;
@@ -91,7 +92,6 @@ a {
 a:hover {
     background: linear-gradient(to bottom, #b371d1 10%, #eb5aaa 90%);
     border-radius: 5px;
-    color:rgb(86, 5, 102);
 }
 
 .card-container {

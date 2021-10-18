@@ -39,18 +39,7 @@ body {
         z-index: 1;
 
 }
-.navbar {   
-  display: flex;
-  width: auto;
-  height: auto;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #eed9f8;
-  margin: 5px;
-  border-radius: 8px;
-  flex-wrap: wrap;
-}
-/*  
+
 .navbar {
    width: auto;
    height: auto;
@@ -63,7 +52,6 @@ body {
    flex-wrap: wrap;
   
 }
-*/
 li{
   z-index: 2;
 }
