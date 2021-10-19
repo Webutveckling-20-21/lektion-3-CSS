@@ -56,10 +56,11 @@ audio {
 }
 
 ul {
-
+display:flex;
     list-style-type: none;
     flex-wrap: wrap;
-     
+    justify-content: space-around;
+
     padding: 10;
     width: 90%;
     height: auto;
@@ -68,13 +69,18 @@ ul {
     background: linear-gradient(to bottom, #8257e7 10%, #e47ee7 90%);
     box-shadow: 7.6px 15.2px 15.2px hsl(0deg 0% 0% / 0.26);
 }
+li{
+    margin:5px;
+    padding-left: 10px;;
+    padding-right: 400px;;
+}
 
-
+/* 
 .nav-list {
     margin-right: -60%;
     margin-left:50%;
       
-    }
+    } */
    
 
 a {
@@ -88,13 +94,7 @@ a:hover {
     color: rgb(100, 59, 212);
 }
 
-/*  
-.img::before {
-    content:"opacity .2" ; 
- } 
- .img::after {
-    content:" opacity 1"; 
- }*/
+
 
 .thumbnail:hover {
     position: relative;
@@ -145,8 +145,8 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     background: rgba(255,255,255,.2);
 }
 .container a:before
